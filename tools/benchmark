@@ -1,0 +1,39 @@
+#!/usr/bin/env node
+'use strict';
+
+var Benchmark = require('benchmark').Benchmark;
+var Suite = Benchmark.Suite;
+var equalid = require('../');
+var suite = new Suite();
+var _ = require('lodash-node');
+
+
+var fixtures = [
+    void 0,
+    {
+        name: 'xxx',
+        value: 42
+    },
+    require('./fixtures/fixture0')
+];
+
+Benchmark.options.minSamples = 100;
+
+_.forEach(fixtures, function (f, i) {
+    suite.add('fixture' + i, function () {
+        return equalid(f);
+    })
+});
+
+suite.on('cycle', function (event) {
+    console.log(String(event.target));
+});
+
+suite.on('complete', function () {
+    console.log();
+});
+
+suite.run({
+    queued: true,
+    async: true
+});

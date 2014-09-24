@@ -1,0 +1,192 @@
+{
+  "errors": {
+    "userInfo": {
+      "agent": false,
+      "method": "GET",
+      "protocol": "http:",
+      "timeout": 10000,
+      "host": "backend-test.contest.yandex.net",
+      "path": "/action/users/info",
+      "port": 8080,
+      "query": {"locale": "ru"},
+      "headers": {
+        "X-Forwarded-Real-IP": "::ffff:84.201.191.130",
+        "X-Forwarded-User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 YaBrowser/14.8.1985.11801 Safari/537.36"
+      }
+    },
+    "teamsList": {
+      "agent": false,
+      "method": "GET",
+      "protocol": "http:",
+      "timeout": 10000,
+      "host": "backend-test.contest.yandex.net",
+      "path": "/action/teams/list",
+      "port": 8080,
+      "query": {"locale": "ru"},
+      "headers": {
+        "X-Forwarded-Real-IP": "::ffff:84.201.191.130",
+        "X-Forwarded-User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 YaBrowser/14.8.1985.11801 Safari/537.36"
+      }
+    }
+  },
+  "result": {
+    "yandexuid": "1337422161394830948",
+    "domain": {
+      "name": "Контест",
+      "hubId": 1,
+      "pageLinks": [
+        {
+          "__type": "hubLink",
+          "addressName": "news",
+          "names": {
+            "en": "News",
+            "ru": "Новости"
+          },
+          "hidden": false,
+          "hubId": 1,
+          "name": "Новости"
+        },
+        {
+          "__type": "internalLink",
+          "addressName": "algorithm2014-registration",
+          "names": {
+            "en": "registration 2014",
+            "ru": "Регистрация 2014"
+          },
+          "hidden": false,
+          "link": "algorithm14-register",
+          "name": "Регистрация 2014"
+        },
+        {
+          "__type": "internalLink",
+          "addressName": "teams",
+          "names": {
+            "en": "Teams",
+            "ru": "Команды"
+          },
+          "hidden": false,
+          "link": "teams",
+          "name": "Команды"
+        },
+        {
+          "__type": "postLink",
+          "addressName": "compilers",
+          "names": {
+            "en": "Compilers",
+            "ru": "Компиляторы"
+          },
+          "hidden": false,
+          "postId": 50,
+          "name": "Компиляторы"
+        },
+        {
+          "__type": "externalLink",
+          "addressName": "nayandex",
+          "names": {
+            "en": "nayandex",
+            "ru": "няндекс"
+          },
+          "hidden": false,
+          "link": "http://yandex.ru",
+          "name": "няндекс"
+        },
+        {
+          "__type": "internalLink",
+          "addressName": "prettyName",
+          "names": {
+            "en": "mon-int",
+            "ru": "mon-int"
+          },
+          "hidden": false,
+          "link": "merged-monitor",
+          "queryParams": {"monitorId": "13"},
+          "name": "mon-int"
+        },
+        {
+          "__type": "internalLink",
+          "addressName": "mon1",
+          "names": {
+            "en": "mon11",
+            "ru": "mon11"
+          },
+          "hidden": false,
+          "link": "merged-monitor",
+          "queryParams": {"monitorId": "15"},
+          "name": "mon11"
+        },
+        {
+          "__type": "internalLink",
+          "addressName": "momomo",
+          "names": {
+            "en": "momomo",
+            "ru": "momomo"
+          },
+          "hidden": false,
+          "link": "merged-monitor",
+          "queryParams": {"monitorId": "16"},
+          "name": "momomo"
+        },
+        {
+          "__type": "externalLink",
+          "addressName": "testcontest",
+          "names": {
+            "en": "testcontest",
+            "ru": "testcontest"
+          },
+          "hidden": false,
+          "link": "/contest/3/enter/",
+          "name": "testcontest"
+        }
+      ],
+      "startPageIndex": 0,
+      "pageLink": {
+        "__type": "internalLink",
+        "addressName": "teams",
+        "names": {
+          "en": "Teams",
+          "ru": "Команды"
+        },
+        "hidden": false,
+        "link": "teams",
+        "name": "Команды"
+      }
+    },
+    "locale": {"language": "ru"},
+    "region": {
+      "tld": "ru",
+      "ytld": "ru",
+      "top": "yandex.ru",
+      "contest": "test.yandex.ru"
+    },
+    "url": {
+      "match": {"addressName": "teams"},
+      "route": "domainPage",
+      "protocol": "http:",
+      "slashes": true,
+      "auth": null,
+      "host": "contest.test.yandex.ru",
+      "port": null,
+      "hostname": "contest.test.yandex.ru",
+      "hash": null,
+      "search": "?renderer=json",
+      "query": {"renderer": "json"},
+      "pathname": "/teams/",
+      "path": "/teams/?renderer=json",
+      "href": "http://contest.test.yandex.ru/teams/?renderer=json"
+    },
+    "version": "2014.37.2",
+    "hosts": {
+      "passport": "passport-test.yandex.ru",
+      "social": "social-test.yandex.ru",
+      "contest": "backend-test.contest.yandex.net",
+      "blackbox": "pass-test.yandex.ru",
+      "tune": "tune.yandex.ru",
+      "validator": "validator-test.yandex.net",
+      "pass": "pass-test.yandex.ru",
+      "static": "betastatic.yandex.st"
+    },
+    "sessionid": {},
+    "isAuthorized": false,
+    "secretKey": "y54b6b07f9c94cba67a842e80b9b56e3f"
+  }
+}

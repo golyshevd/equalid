@@ -1,0 +1,47 @@
+{
+  "author": {
+    "name": "Golyshev Dmitrii",
+    "email": "golyshev.dmitry@yandex.ru"
+  },
+  "bugs": {
+    "url": "https://github.com/golyshevd/equalid/issues"
+  },
+  "contributors": [
+    "Golyshev Dmitrii <golyshev.dmitry@yandex.ru>"
+  ],
+  "dependencies": {
+    "double-ended-queue": "2.0.0-0"
+  },
+  "description": "Creates unique equality ids",
+  "devDependencies": {
+    "vow-fs": "0.3.2",
+    "vow": "0.4.5",
+    "lodash-node": "2.4.1",
+    "glob": "4.0.6",
+    "gulp": "3.8.8",
+    "gulp-mocha": "1.1.0",
+    "gulp-istanbul": "0.3.1",
+    "eslint": "0.8.2",
+    "gulp-util": "3.0.1",
+    "through2": "0.6.2",
+    "minimatch": "1.0.0",
+    "jscs": "1.6.2",
+    "benchmark": "1.0.0"
+  },
+  "license": "MIT",
+  "main": "equalid",
+  "name": "equalid",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/golyshevd/equalid.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "equal",
+    "id",
+    "hash"
+  ],
+  "version": "0.0.0"
+}
